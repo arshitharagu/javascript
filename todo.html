@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Advanced To-Do App | Arshitha R</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<h1 class="logo">
+Arshitha<span>.</span>
+</h1>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="projects.html">Projects</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="todo-section">
+
+<h2>Advanced Task Manager 🚀</h2>
+
+<div class="todo-container">
+
+<input
+type="text"
+id="taskInput"
+placeholder="Enter a new task..."
+>
+
+<button onclick="addTask()">
+Add Task
+</button>
+
+<div class="filters">
+
+<button onclick="filterTasks('all')">
+All
+</button>
+
+<button onclick="filterTasks('active')">
+Active
+</button>
+
+<button onclick="filterTasks('completed')">
+Completed
+</button>
+
+</div>
+
+<ul id="taskList">
+
+</ul>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Arshitha R | Frontend Developer
+</p>
+
+</footer>
+
+<script src="todo.js"></script>
+
+</body>
+
+</html>
